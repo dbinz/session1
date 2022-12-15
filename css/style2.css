@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.top-left {
+    float: left;
+    color: aliceblue
+}
+
+.top-left ul li {
+    display: inline-table;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.top-right {
+    float: right;
+    color: aliceblue
+}
+
+.top-right ul li {
+
+    display: inline-table;
+    margin-right: 35px;
+    line-height: 30px;
+}
+
+#top {
+    background: black;
+    height: 30px
+}
+
+.title table {
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.title {
+    height: 110px;
+}
+
+.title ul li {
+    display: inline-table;
+    line-height: 110px;
+    margin-left: 70px;
+}
+
+.search {
+    background: black;
+    height: 60px;
+}
+
+.search-left ul li {
+    float: left;
+    display: inline;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+.search-right {
+    color: aliceblue
+}
+
+.search-right ul li {
+    float: left;
+    display: inline-table;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+.search-right {
+    margin-left: 350px;
+}
+
+
+
+
+.search input[type=text] {
+    border: none;
+    width: 220px;
+    height: 35px;
+    padding: 0
+}
+
+.search button[type=submit] {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: #e09809;
+}
+
+.search input[type=text1] {
+    border: none;
+    width: 75px;
+    height: 35px;
+    padding:0;
+
+}
+
+.search-right ul li form {
+    display: inline-flex;
+}
+.items{
+    margin-top: 40px;
+}
